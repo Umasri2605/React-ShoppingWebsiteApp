@@ -14,7 +14,7 @@ function Navbar() {
     />
       <Link className="navbar-brand text-white" to="/" style={{marginLeft:"500px"}}>Home</Link>
       <Link className="navbar-brand text-white" to="/products">Products</Link>
-      <Link className="nav-link text-white fw-bold" to="/cart"> <i class="bi bi-cart3"></i>Cart ({cartCount})</Link>
+      <Link className="nav-link text-white fw-bold" to="/cart"> <i class="bi bi-cart3"></i>Cart <sup>({cartCount})</sup> </Link>
     </nav>
   );
 }
